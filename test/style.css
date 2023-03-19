@@ -1,0 +1,42 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 13px;
+    color: rgb(109, 108, 108);
+    background: white;
+    margin: 8px;
+}
+
+h1 {
+    font-size: 19px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black
+}
+
+.shaded {
+    background: #d0d0ff;
+}
+
+p {
+    border: 2px solid rgb(153, 29, 220);
+    position: static;
+    display:flexbox;
+    visibility: visible;
+}
+
+p:hover,
+a:hover {
+    background-color: yellow;
+    text-decoration: underline;
+    border: 5px, solid, rgb(41, 220, 32);
+}
+
+
+
+a:visited {
+    color: rgb(255, 1, 5);
+}
+
+a:link {
+    color: blue;
+}
